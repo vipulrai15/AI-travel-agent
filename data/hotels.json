@@ -1,0 +1,686 @@
+[
+  {
+    "id": "dehradun_budget",
+    "city": "Dehradun",
+    "name": "Dehradun Traveller Stay",
+    "price_per_night_inr": 1100,
+    "comfort_level": "budget",
+    "amenities": [
+      "Wi-Fi",
+      "breakfast option",
+      "24-hour reception"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 3.8
+  },
+  {
+    "id": "dehradun_mid_range",
+    "city": "Dehradun",
+    "name": "Dehradun Central Hotel",
+    "price_per_night_inr": 2530,
+    "comfort_level": "mid-range",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "breakfast"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.3
+  },
+  {
+    "id": "dehradun_luxury",
+    "city": "Dehradun",
+    "name": "Dehradun Heritage Retreat",
+    "price_per_night_inr": 6600,
+    "comfort_level": "luxury",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "room service",
+      "pool"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.7
+  },
+  {
+    "id": "delhi_budget",
+    "city": "Delhi",
+    "name": "Delhi Traveller Stay",
+    "price_per_night_inr": 1500,
+    "comfort_level": "budget",
+    "amenities": [
+      "Wi-Fi",
+      "breakfast option",
+      "24-hour reception"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 3.8
+  },
+  {
+    "id": "delhi_mid_range",
+    "city": "Delhi",
+    "name": "Delhi Central Hotel",
+    "price_per_night_inr": 3449,
+    "comfort_level": "mid-range",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "breakfast"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.3
+  },
+  {
+    "id": "delhi_luxury",
+    "city": "Delhi",
+    "name": "Delhi Heritage Retreat",
+    "price_per_night_inr": 9000,
+    "comfort_level": "luxury",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "room service",
+      "pool"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.7
+  },
+  {
+    "id": "rishikesh_budget",
+    "city": "Rishikesh",
+    "name": "Rishikesh Traveller Stay",
+    "price_per_night_inr": 1300,
+    "comfort_level": "budget",
+    "amenities": [
+      "Wi-Fi",
+      "breakfast option",
+      "24-hour reception"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 3.8
+  },
+  {
+    "id": "rishikesh_mid_range",
+    "city": "Rishikesh",
+    "name": "Rishikesh Central Hotel",
+    "price_per_night_inr": 2989,
+    "comfort_level": "mid-range",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "breakfast"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.3
+  },
+  {
+    "id": "rishikesh_luxury",
+    "city": "Rishikesh",
+    "name": "Rishikesh Heritage Retreat",
+    "price_per_night_inr": 7800,
+    "comfort_level": "luxury",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "room service",
+      "pool"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.7
+  },
+  {
+    "id": "haridwar_budget",
+    "city": "Haridwar",
+    "name": "Haridwar Traveller Stay",
+    "price_per_night_inr": 1000,
+    "comfort_level": "budget",
+    "amenities": [
+      "Wi-Fi",
+      "breakfast option",
+      "24-hour reception"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 3.8
+  },
+  {
+    "id": "haridwar_mid_range",
+    "city": "Haridwar",
+    "name": "Haridwar Central Hotel",
+    "price_per_night_inr": 2300,
+    "comfort_level": "mid-range",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "breakfast"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.3
+  },
+  {
+    "id": "haridwar_luxury",
+    "city": "Haridwar",
+    "name": "Haridwar Heritage Retreat",
+    "price_per_night_inr": 6000,
+    "comfort_level": "luxury",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "room service",
+      "pool"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.7
+  },
+  {
+    "id": "agra_budget",
+    "city": "Agra",
+    "name": "Agra Traveller Stay",
+    "price_per_night_inr": 1200,
+    "comfort_level": "budget",
+    "amenities": [
+      "Wi-Fi",
+      "breakfast option",
+      "24-hour reception"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 3.8
+  },
+  {
+    "id": "agra_mid_range",
+    "city": "Agra",
+    "name": "Agra Central Hotel",
+    "price_per_night_inr": 2760,
+    "comfort_level": "mid-range",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "breakfast"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.3
+  },
+  {
+    "id": "agra_luxury",
+    "city": "Agra",
+    "name": "Agra Heritage Retreat",
+    "price_per_night_inr": 7200,
+    "comfort_level": "luxury",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "room service",
+      "pool"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.7
+  },
+  {
+    "id": "jaipur_budget",
+    "city": "Jaipur",
+    "name": "Jaipur Traveller Stay",
+    "price_per_night_inr": 1300,
+    "comfort_level": "budget",
+    "amenities": [
+      "Wi-Fi",
+      "breakfast option",
+      "24-hour reception"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 3.8
+  },
+  {
+    "id": "jaipur_mid_range",
+    "city": "Jaipur",
+    "name": "Jaipur Central Hotel",
+    "price_per_night_inr": 2989,
+    "comfort_level": "mid-range",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "breakfast"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.3
+  },
+  {
+    "id": "jaipur_luxury",
+    "city": "Jaipur",
+    "name": "Jaipur Heritage Retreat",
+    "price_per_night_inr": 7800,
+    "comfort_level": "luxury",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "room service",
+      "pool"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.7
+  },
+  {
+    "id": "chandigarh_budget",
+    "city": "Chandigarh",
+    "name": "Chandigarh Traveller Stay",
+    "price_per_night_inr": 1500,
+    "comfort_level": "budget",
+    "amenities": [
+      "Wi-Fi",
+      "breakfast option",
+      "24-hour reception"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 3.8
+  },
+  {
+    "id": "chandigarh_mid_range",
+    "city": "Chandigarh",
+    "name": "Chandigarh Central Hotel",
+    "price_per_night_inr": 3449,
+    "comfort_level": "mid-range",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "breakfast"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.3
+  },
+  {
+    "id": "chandigarh_luxury",
+    "city": "Chandigarh",
+    "name": "Chandigarh Heritage Retreat",
+    "price_per_night_inr": 9000,
+    "comfort_level": "luxury",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "room service",
+      "pool"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.7
+  },
+  {
+    "id": "shimla_budget",
+    "city": "Shimla",
+    "name": "Shimla Traveller Stay",
+    "price_per_night_inr": 1700,
+    "comfort_level": "budget",
+    "amenities": [
+      "Wi-Fi",
+      "breakfast option",
+      "24-hour reception"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 3.8
+  },
+  {
+    "id": "shimla_mid_range",
+    "city": "Shimla",
+    "name": "Shimla Central Hotel",
+    "price_per_night_inr": 3909,
+    "comfort_level": "mid-range",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "breakfast"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.3
+  },
+  {
+    "id": "shimla_luxury",
+    "city": "Shimla",
+    "name": "Shimla Heritage Retreat",
+    "price_per_night_inr": 10200,
+    "comfort_level": "luxury",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "room service",
+      "pool"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.7
+  },
+  {
+    "id": "amritsar_budget",
+    "city": "Amritsar",
+    "name": "Amritsar Traveller Stay",
+    "price_per_night_inr": 1200,
+    "comfort_level": "budget",
+    "amenities": [
+      "Wi-Fi",
+      "breakfast option",
+      "24-hour reception"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 3.8
+  },
+  {
+    "id": "amritsar_mid_range",
+    "city": "Amritsar",
+    "name": "Amritsar Central Hotel",
+    "price_per_night_inr": 2760,
+    "comfort_level": "mid-range",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "breakfast"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.3
+  },
+  {
+    "id": "amritsar_luxury",
+    "city": "Amritsar",
+    "name": "Amritsar Heritage Retreat",
+    "price_per_night_inr": 7200,
+    "comfort_level": "luxury",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "room service",
+      "pool"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.7
+  },
+  {
+    "id": "varanasi_budget",
+    "city": "Varanasi",
+    "name": "Varanasi Traveller Stay",
+    "price_per_night_inr": 1000,
+    "comfort_level": "budget",
+    "amenities": [
+      "Wi-Fi",
+      "breakfast option",
+      "24-hour reception"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 3.8
+  },
+  {
+    "id": "varanasi_mid_range",
+    "city": "Varanasi",
+    "name": "Varanasi Central Hotel",
+    "price_per_night_inr": 2300,
+    "comfort_level": "mid-range",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "breakfast"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.3
+  },
+  {
+    "id": "varanasi_luxury",
+    "city": "Varanasi",
+    "name": "Varanasi Heritage Retreat",
+    "price_per_night_inr": 6000,
+    "comfort_level": "luxury",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "room service",
+      "pool"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.7
+  },
+  {
+    "id": "mumbai_budget",
+    "city": "Mumbai",
+    "name": "Mumbai Traveller Stay",
+    "price_per_night_inr": 2300,
+    "comfort_level": "budget",
+    "amenities": [
+      "Wi-Fi",
+      "breakfast option",
+      "24-hour reception"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 3.8
+  },
+  {
+    "id": "mumbai_mid_range",
+    "city": "Mumbai",
+    "name": "Mumbai Central Hotel",
+    "price_per_night_inr": 5290,
+    "comfort_level": "mid-range",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "breakfast"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.3
+  },
+  {
+    "id": "mumbai_luxury",
+    "city": "Mumbai",
+    "name": "Mumbai Heritage Retreat",
+    "price_per_night_inr": 13800,
+    "comfort_level": "luxury",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "room service",
+      "pool"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.7
+  },
+  {
+    "id": "goa_budget",
+    "city": "Goa",
+    "name": "Goa Coastal Guesthouse",
+    "price_per_night_inr": 1600,
+    "comfort_level": "budget",
+    "amenities": [
+      "Wi-Fi",
+      "breakfast option",
+      "24-hour reception"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 3.8
+  },
+  {
+    "id": "goa_mid_range",
+    "city": "Goa",
+    "name": "Goa Beachside Hotel",
+    "price_per_night_inr": 3679,
+    "comfort_level": "mid-range",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "breakfast"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.3
+  },
+  {
+    "id": "goa_luxury",
+    "city": "Goa",
+    "name": "Goa Heritage Resort",
+    "price_per_night_inr": 9600,
+    "comfort_level": "luxury",
+    "amenities": [
+      "Wi-Fi",
+      "restaurant",
+      "air conditioning",
+      "room service",
+      "pool"
+    ],
+    "check_in": "14:00",
+    "check_out": "11:00",
+    "accessible": true,
+    "available_rooms": 8,
+    "max_guests_per_room": 2,
+    "rating": 4.7
+  }
+]

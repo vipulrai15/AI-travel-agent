@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Dehradun",
+    "state": "Uttarakhand",
+    "lat": 30.3165,
+    "lon": 78.0322,
+    "population_band": "mid",
+    "food_cost_per_person": 650,
+    "local_transport_per_person": 250,
+    "airport": true,
+    "railway": true
+  },
+  {
+    "name": "Delhi",
+    "state": "Delhi",
+    "lat": 28.6139,
+    "lon": 77.209,
+    "population_band": "metro",
+    "food_cost_per_person": 900,
+    "local_transport_per_person": 450,
+    "airport": true,
+    "railway": true
+  },
+  {
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "lat": 30.0869,
+    "lon": 78.2676,
+    "population_band": "small",
+    "food_cost_per_person": 600,
+    "local_transport_per_person": 300,
+    "airport": false,
+    "railway": false
+  },
+  {
+    "name": "Haridwar",
+    "state": "Uttarakhand",
+    "lat": 29.9457,
+    "lon": 78.1642,
+    "population_band": "small",
+    "food_cost_per_person": 550,
+    "local_transport_per_person": 220,
+    "airport": false,
+    "railway": true
+  },
+  {
+    "name": "Agra",
+    "state": "Uttar Pradesh",
+    "lat": 27.1767,
+    "lon": 78.0081,
+    "population_band": "mid",
+    "food_cost_per_person": 650,
+    "local_transport_per_person": 300,
+    "airport": false,
+    "railway": true
+  },
+  {
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "lat": 26.9124,
+    "lon": 75.7873,
+    "population_band": "large",
+    "food_cost_per_person": 750,
+    "local_transport_per_person": 350,
+    "airport": true,
+    "railway": true
+  },
+  {
+    "name": "Chandigarh",
+    "state": "Chandigarh",
+    "lat": 30.7333,
+    "lon": 76.7794,
+    "population_band": "mid",
+    "food_cost_per_person": 800,
+    "local_transport_per_person": 320,
+    "airport": true,
+    "railway": true
+  },
+  {
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "lat": 31.1048,
+    "lon": 77.1734,
+    "population_band": "small",
+    "food_cost_per_person": 800,
+    "local_transport_per_person": 450,
+    "airport": false,
+    "railway": false
+  },
+  {
+    "name": "Amritsar",
+    "state": "Punjab",
+    "lat": 31.634,
+    "lon": 74.8723,
+    "population_band": "mid",
+    "food_cost_per_person": 700,
+    "local_transport_per_person": 300,
+    "airport": true,
+    "railway": true
+  },
+  {
+    "name": "Varanasi",
+    "state": "Uttar Pradesh",
+    "lat": 25.3176,
+    "lon": 82.9739,
+    "population_band": "large",
+    "food_cost_per_person": 600,
+    "local_transport_per_person": 280,
+    "airport": true,
+    "railway": true
+  },
+  {
+    "name": "Mumbai",
+    "state": "Maharashtra",
+    "lat": 19.076,
+    "lon": 72.8777,
+    "population_band": "metro",
+    "food_cost_per_person": 1100,
+    "local_transport_per_person": 600,
+    "airport": true,
+    "railway": true
+  },
+  {
+    "name": "Goa",
+    "state": "Goa",
+    "lat": 15.2993,
+    "lon": 74.124,
+    "population_band": "small",
+    "food_cost_per_person": 900,
+    "local_transport_per_person": 450,
+    "airport": true,
+    "railway": true
+  }
+]

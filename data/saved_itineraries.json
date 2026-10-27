@@ -1,0 +1,2316 @@
+[
+  {
+    "saved_at": "2026-10-27T20:03",
+    "request": {
+      "origin": "Dehradun",
+      "destination_cities": [
+        "Mumbai"
+      ],
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-08",
+      "available_days": 5,
+      "total_budget_inr": 25000.0,
+      "daily_budget_limit_inr": 10000.0,
+      "travellers": 1,
+      "interests": [
+        "history",
+        "nature"
+      ],
+      "transport_mode": "any",
+      "max_daily_travel_hours": 8.0,
+      "hotel_min_inr": 500,
+      "hotel_max_inr": 5000,
+      "hotel_comfort": "budget",
+      "travel_pace": "normal",
+      "must_visit": [],
+      "excluded_items": [],
+      "dietary_preference": "no preference",
+      "accessibility_needs": "",
+      "return_to_origin": true,
+      "priority_weights": {
+        "cost": 100,
+        "time": 100,
+        "preferences": 100,
+        "quality": 100
+      }
+    },
+    "route": {
+      "algorithm": "A*",
+      "metric": "time",
+      "nodes": [
+        "Dehradun",
+        "Delhi",
+        "Mumbai",
+        "Delhi",
+        "Dehradun"
+      ],
+      "destination_order": [
+        "Mumbai"
+      ],
+      "total_cost_per_traveller": 23548.0,
+      "total_time_hours": 6.699000000000002,
+      "hops": 4,
+      "edges": [
+        {
+          "source": "Dehradun",
+          "destination": "Delhi",
+          "mode": "flight",
+          "duration_hours": 1.1,
+          "fare_per_person_inr": 5200,
+          "departure_time": "09:00",
+          "arrival_time": "10:06",
+          "operating_days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "distance_km": 240.0,
+          "accessible": true
+        },
+        {
+          "source": "Delhi",
+          "destination": "Mumbai",
+          "mode": "flight",
+          "duration_hours": 2.2,
+          "fare_per_person_inr": 6400,
+          "departure_time": "08:00",
+          "arrival_time": "10:12",
+          "operating_days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "distance_km": 1150.0,
+          "accessible": true
+        },
+        {
+          "source": "Mumbai",
+          "destination": "Delhi",
+          "mode": "flight",
+          "duration_hours": 2.2660000000000005,
+          "fare_per_person_inr": 6592,
+          "departure_time": "14:00",
+          "arrival_time": "16:16",
+          "operating_days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "distance_km": 1150.0,
+          "accessible": true
+        },
+        {
+          "source": "Delhi",
+          "destination": "Dehradun",
+          "mode": "flight",
+          "duration_hours": 1.1330000000000002,
+          "fare_per_person_inr": 5356,
+          "departure_time": "14:00",
+          "arrival_time": "15:08",
+          "operating_days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "distance_km": 240.0,
+          "accessible": true
+        }
+      ]
+    },
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-11-03",
+        "weekday": "Tuesday",
+        "city": "Delhi",
+        "kind": "travel",
+        "hotel": {
+          "id": "delhi_budget",
+          "city": "Delhi",
+          "name": "Delhi Traveller Stay",
+          "price_per_night_inr": 1500,
+          "comfort_level": "budget",
+          "amenities": [
+            "Wi-Fi",
+            "breakfast option",
+            "24-hour reception"
+          ],
+          "check_in": "14:00",
+          "check_out": "11:00",
+          "accessible": true,
+          "available_rooms": 8,
+          "max_guests_per_room": 2,
+          "rating": 3.8
+        },
+        "hotel_rooms": 1,
+        "hotel_check_in": "14:00",
+        "hotel_check_out": "11:00",
+        "transport_departure": "09:00",
+        "transport_arrival": "10:06",
+        "transport_arrival_date": "2026-11-03",
+        "transport_hours": 1.1,
+        "transport_cost_inr": 5200,
+        "activities": [],
+        "activity_note": "Travel and check in; keep the remaining time for rest.",
+        "meals": [
+          "Breakfast: local breakfast",
+          "Lunch: regional thali",
+          "Dinner: locally popular meal"
+        ],
+        "meal_breaks": [
+          {
+            "name": "Breakfast",
+            "time": "08:00"
+          },
+          {
+            "name": "Lunch",
+            "time": "12:30"
+          },
+          {
+            "name": "Dinner",
+            "time": "19:30"
+          }
+        ],
+        "rest_hours_after_travel": 8,
+        "recovery_buffer_scheduled": true,
+        "step_leg_index": 0,
+        "hotel_actual_check_out": "07:30",
+        "transport_legs": [
+          {
+            "source": "Dehradun",
+            "destination": "Delhi",
+            "mode": "flight",
+            "duration_hours": 1.1,
+            "fare_per_person_inr": 5200,
+            "departure_time": "09:00",
+            "arrival_time": "10:06",
+            "operating_days": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "distance_km": 240.0,
+            "accessible": true
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-11-04",
+        "weekday": "Wednesday",
+        "city": "Mumbai",
+        "kind": "travel",
+        "hotel": {
+          "id": "mumbai_budget",
+          "city": "Mumbai",
+          "name": "Mumbai Traveller Stay",
+          "price_per_night_inr": 2300,
+          "comfort_level": "budget",
+          "amenities": [
+            "Wi-Fi",
+            "breakfast option",
+            "24-hour reception"
+          ],
+          "check_in": "14:00",
+          "check_out": "11:00",
+          "accessible": true,
+          "available_rooms": 8,
+          "max_guests_per_room": 2,
+          "rating": 3.8
+        },
+        "hotel_rooms": 1,
+        "hotel_check_in": "14:00",
+        "hotel_check_out": "11:00",
+        "transport_departure": "08:00",
+        "transport_arrival": "10:12",
+        "transport_arrival_date": "2026-11-04",
+        "transport_hours": 2.2,
+        "transport_cost_inr": 6400,
+        "activities": [],
+        "activity_note": "Travel and check in; keep the remaining time for rest.",
+        "meals": [
+          "Breakfast: local breakfast",
+          "Lunch: regional thali",
+          "Dinner: locally popular meal"
+        ],
+        "meal_breaks": [
+          {
+            "name": "Breakfast",
+            "time": "08:00"
+          },
+          {
+            "name": "Lunch",
+            "time": "12:30"
+          },
+          {
+            "name": "Dinner",
+            "time": "19:30"
+          }
+        ],
+        "rest_hours_after_travel": 8,
+        "recovery_buffer_scheduled": true,
+        "step_leg_index": 0,
+        "hotel_actual_check_out": "Continues",
+        "transport_legs": [
+          {
+            "source": "Delhi",
+            "destination": "Mumbai",
+            "mode": "flight",
+            "duration_hours": 2.2,
+            "fare_per_person_inr": 6400,
+            "departure_time": "08:00",
+            "arrival_time": "10:12",
+            "operating_days": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "distance_km": 1150.0,
+            "accessible": true
+          }
+        ]
+      },
+      {
+        "day_number": 3,
+        "date": "2026-11-05",
+        "weekday": "Thursday",
+        "city": "Mumbai",
+        "kind": "stay",
+        "hotel": {
+          "id": "mumbai_budget",
+          "city": "Mumbai",
+          "name": "Mumbai Traveller Stay",
+          "price_per_night_inr": 2300,
+          "comfort_level": "budget",
+          "amenities": [
+            "Wi-Fi",
+            "breakfast option",
+            "24-hour reception"
+          ],
+          "check_in": "14:00",
+          "check_out": "11:00",
+          "accessible": true,
+          "available_rooms": 8,
+          "max_guests_per_room": 2,
+          "rating": 3.8
+        },
+        "hotel_rooms": 1,
+        "hotel_check_in": "Already checked in",
+        "hotel_check_out": "11:00",
+        "transport_departure": null,
+        "transport_arrival": null,
+        "transport_arrival_date": null,
+        "transport_hours": 0.0,
+        "transport_cost_inr": 0,
+        "activities": [
+          {
+            "id": "mumbai_1",
+            "city": "Mumbai",
+            "name": "Gateway of India",
+            "category": "history",
+            "rating": 4.6,
+            "entry_fee_inr": 0,
+            "duration_minutes": 75,
+            "opening_hours": "06:00-18:00",
+            "closed_days": "None",
+            "tags": [
+              "history",
+              "architecture"
+            ],
+            "last_entry": "17:00",
+            "accessible": true,
+            "location": "Mumbai city area",
+            "slot": "Morning",
+            "start_time": "09:00",
+            "end_time": "10:15",
+            "local_transport": "Auto/taxi or walk; allow 20–30 minutes between stops."
+          },
+          {
+            "id": "mumbai_2",
+            "city": "Mumbai",
+            "name": "Chhatrapati Shivaji Maharaj Vastu Sangrahalaya",
+            "category": "history",
+            "rating": 4.6,
+            "entry_fee_inr": 100,
+            "duration_minutes": 150,
+            "opening_hours": "10:15-18:00",
+            "closed_days": "Monday",
+            "tags": [
+              "history",
+              "culture"
+            ],
+            "last_entry": "16:30",
+            "accessible": true,
+            "location": "Mumbai city area",
+            "slot": "Afternoon",
+            "start_time": "13:30",
+            "end_time": "16:00",
+            "local_transport": "Auto/taxi or walk; allow 20–30 minutes between stops."
+          }
+        ],
+        "activity_note": "",
+        "meals": [
+          "Breakfast: local breakfast",
+          "Lunch: regional thali",
+          "Dinner: locally popular meal"
+        ],
+        "meal_breaks": [
+          {
+            "name": "Breakfast",
+            "time": "08:00"
+          },
+          {
+            "name": "Lunch",
+            "time": "12:30"
+          },
+          {
+            "name": "Dinner",
+            "time": "19:30"
+          }
+        ],
+        "rest_hours_after_travel": 8,
+        "recovery_buffer_scheduled": true,
+        "step_leg_index": 0,
+        "hotel_actual_check_out": "13:30",
+        "transport_legs": []
+      },
+      {
+        "day_number": 4,
+        "date": "2026-11-06",
+        "weekday": "Friday",
+        "city": "Delhi",
+        "kind": "travel",
+        "hotel": {
+          "id": "delhi_budget",
+          "city": "Delhi",
+          "name": "Delhi Traveller Stay",
+          "price_per_night_inr": 1500,
+          "comfort_level": "budget",
+          "amenities": [
+            "Wi-Fi",
+            "breakfast option",
+            "24-hour reception"
+          ],
+          "check_in": "14:00",
+          "check_out": "11:00",
+          "accessible": true,
+          "available_rooms": 8,
+          "max_guests_per_room": 2,
+          "rating": 3.8
+        },
+        "hotel_rooms": 1,
+        "hotel_check_in": "14:00",
+        "hotel_check_out": "11:00",
+        "transport_departure": "14:00",
+        "transport_arrival": "16:16",
+        "transport_arrival_date": "2026-11-06",
+        "transport_hours": 2.2660000000000005,
+        "transport_cost_inr": 6592,
+        "activities": [],
+        "activity_note": "Travel and check in; keep the remaining time for rest.",
+        "meals": [
+          "Breakfast: local breakfast",
+          "Lunch: regional thali",
+          "Dinner: locally popular meal"
+        ],
+        "meal_breaks": [
+          {
+            "name": "Breakfast",
+            "time": "08:00"
+          },
+          {
+            "name": "Lunch",
+            "time": "12:30"
+          },
+          {
+            "name": "Dinner",
+            "time": "19:30"
+          }
+        ],
+        "rest_hours_after_travel": 8,
+        "recovery_buffer_scheduled": true,
+        "step_leg_index": 1,
+        "hotel_actual_check_out": "13:30",
+        "transport_legs": [
+          {
+            "source": "Mumbai",
+            "destination": "Delhi",
+            "mode": "flight",
+            "duration_hours": 2.2660000000000005,
+            "fare_per_person_inr": 6592,
+            "departure_time": "14:00",
+            "arrival_time": "16:16",
+            "operating_days": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "distance_km": 1150.0,
+            "accessible": true
+          }
+        ]
+      },
+      {
+        "day_number": 5,
+        "date": "2026-11-07",
+        "weekday": "Saturday",
+        "city": "Dehradun",
+        "kind": "travel",
+        "hotel": {},
+        "hotel_rooms": 0,
+        "hotel_check_in": "—",
+        "hotel_check_out": "—",
+        "transport_departure": "14:00",
+        "transport_arrival": "15:08",
+        "transport_arrival_date": "2026-11-07",
+        "transport_hours": 1.1330000000000002,
+        "transport_cost_inr": 5356,
+        "activities": [],
+        "activity_note": "Travel and check in; keep the remaining time for rest.",
+        "meals": [
+          "Breakfast: local breakfast",
+          "Lunch: regional thali",
+          "Dinner: locally popular meal"
+        ],
+        "meal_breaks": [
+          {
+            "name": "Breakfast",
+            "time": "08:00"
+          },
+          {
+            "name": "Lunch",
+            "time": "12:30"
+          },
+          {
+            "name": "Dinner",
+            "time": "19:30"
+          }
+        ],
+        "rest_hours_after_travel": 8,
+        "recovery_buffer_scheduled": true,
+        "step_leg_index": 1,
+        "transport_legs": [
+          {
+            "source": "Delhi",
+            "destination": "Dehradun",
+            "mode": "flight",
+            "duration_hours": 1.1330000000000002,
+            "fare_per_person_inr": 5356,
+            "departure_time": "14:00",
+            "arrival_time": "15:08",
+            "operating_days": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "distance_km": 240.0,
+            "accessible": true
+          }
+        ]
+      }
+    ],
+    "costs": {
+      "transport_inr": 23548,
+      "hotel_inr": 7600,
+      "food_inr": 4000,
+      "local_transport_inr": 2100,
+      "attraction_fees_inr": 100,
+      "subtotal_inr": 37348,
+      "contingency_rate": 0.12,
+      "contingency_inr": 4482,
+      "estimated_total_inr": 41830,
+      "daily": [
+        {
+          "day": 1,
+          "city": "Delhi",
+          "transport": 5200,
+          "hotel": 1500,
+          "food": 900,
+          "local_transport": 450,
+          "attractions": 0,
+          "subtotal": 8050
+        },
+        {
+          "day": 2,
+          "city": "Mumbai",
+          "transport": 6400,
+          "hotel": 2300,
+          "food": 1100,
+          "local_transport": 600,
+          "attractions": 0,
+          "subtotal": 10400
+        },
+        {
+          "day": 3,
+          "city": "Mumbai",
+          "transport": 0,
+          "hotel": 2300,
+          "food": 1100,
+          "local_transport": 600,
+          "attractions": 100,
+          "subtotal": 4100
+        },
+        {
+          "day": 4,
+          "city": "Delhi",
+          "transport": 6592,
+          "hotel": 1500,
+          "food": 900,
+          "local_transport": 450,
+          "attractions": 0,
+          "subtotal": 9442
+        },
+        {
+          "day": 5,
+          "city": "Dehradun",
+          "transport": 5356,
+          "hotel": 0,
+          "food": 0,
+          "local_transport": 0,
+          "attractions": 0,
+          "subtotal": 5356
+        }
+      ]
+    },
+    "utility_score": 67.2,
+    "validations": [
+      {
+        "constraint": "Budget constraint",
+        "passed": false,
+        "message": "Estimated ₹41,830 including 12% contingency; daily cap is ₹10,000.",
+        "suggestion": "Increase the total or daily budget, choose cheaper hotels/transport, or remove a stop."
+      },
+      {
+        "constraint": "Trip duration constraint",
+        "passed": true,
+        "message": "The schedule uses 5 day(s); 5 day(s) are available across a 6-day date range.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Reachability constraint",
+        "passed": true,
+        "message": "Every planned leg has a route in the offline network.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Transport schedule constraint",
+        "passed": true,
+        "message": "Each service operates on its travel day and transfer/recovery buffers are sufficient.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Hotel availability constraint",
+        "passed": true,
+        "message": "A matching hotel and enough rooms are available for every overnight city.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Attraction opening-hours constraint",
+        "passed": true,
+        "message": "All scheduled attractions fit their opening windows.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Interest match",
+        "passed": true,
+        "message": "Each selected destination has at least one scheduled attraction matching your interests.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "No overlapping activities",
+        "passed": true,
+        "message": "Scheduled attraction time blocks do not overlap.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Daily travel-time limit",
+        "passed": true,
+        "message": "Longest scheduled travel day is 2.3 hours; limit is 8.0 hours.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Meal-break constraint",
+        "passed": true,
+        "message": "Breakfast, lunch, and dinner breaks are reserved each day.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Rest after long journeys",
+        "passed": true,
+        "message": "Long travel legs are followed by an overnight rest before planned activities.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Hotel check-in/check-out constraint",
+        "passed": true,
+        "message": "Hotel arrival and departure times are compatible with the route; early departures use early check-out.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Accessibility constraint",
+        "passed": true,
+        "message": "Hotels, selected transport, and scheduled attractions match the accessibility filter.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Dietary constraint",
+        "passed": true,
+        "message": "Meal suggestions are tailored for no preference.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Return-route constraint",
+        "passed": true,
+        "message": "The route returns to the origin.",
+        "suggestion": ""
+      }
+    ],
+    "reasoning": [
+      "Route chosen by A* for minimum time: Dehradun → Delhi → Mumbai → Delhi → Dehradun (4 leg(s), 6.7 travel hours).",
+      "Included Mumbai because its attractions match history, nature; matches include Gateway of India, Chhatrapati Shivaji Maharaj Vastu Sangrahalaya, Marine Drive sunset walk.",
+      "Mumbai Traveller Stay in Mumbai matches the budget level and ₹2,300/night range.",
+      "Mumbai activities were picked for interest fit and ratings: Gateway of India, Chhatrapati Shivaji Maharaj Vastu Sangrahalaya.",
+      "Estimated total includes a 12% contingency: ₹41,830.",
+      "Utility score 67.2/100 balances cost, time, preference fit, and attraction quality using your sliders.",
+      "Included Mumbai because you selected it and it passed the attraction and hotel filters.",
+      "The utility agent compared 7 search results and selected A* optimizing time, with the highest utility among generated plans."
+    ]
+  },
+  {
+    "saved_at": "2026-10-27T19:53",
+    "request": {
+      "origin": "Dehradun",
+      "destination_cities": [
+        "Amritsar"
+      ],
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-10",
+      "available_days": 7,
+      "total_budget_inr": 25000.0,
+      "daily_budget_limit_inr": 10000.0,
+      "travellers": 1,
+      "interests": [
+        "history",
+        "nature"
+      ],
+      "transport_mode": "any",
+      "max_daily_travel_hours": 8.0,
+      "hotel_min_inr": 500,
+      "hotel_max_inr": 5000,
+      "hotel_comfort": "budget",
+      "travel_pace": "normal",
+      "must_visit": [],
+      "excluded_items": [],
+      "dietary_preference": "no preference",
+      "accessibility_needs": "",
+      "return_to_origin": true,
+      "priority_weights": {
+        "cost": 45,
+        "time": 55,
+        "preferences": 50,
+        "quality": 50
+      }
+    },
+    "route": {
+      "algorithm": "UCS",
+      "metric": "time",
+      "nodes": [
+        "Dehradun",
+        "Delhi",
+        "Amritsar",
+        "Delhi",
+        "Dehradun"
+      ],
+      "destination_order": [
+        "Amritsar"
+      ],
+      "total_cost_per_traveller": 12383.0,
+      "total_time_hours": 14.413,
+      "hops": 4,
+      "edges": [
+        {
+          "source": "Dehradun",
+          "destination": "Delhi",
+          "mode": "flight",
+          "duration_hours": 1.1,
+          "fare_per_person_inr": 5200,
+          "departure_time": "09:00",
+          "arrival_time": "10:06",
+          "operating_days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "distance_km": 240.0,
+          "accessible": true
+        },
+        {
+          "source": "Delhi",
+          "destination": "Amritsar",
+          "mode": "train",
+          "duration_hours": 6.0,
+          "fare_per_person_inr": 900,
+          "departure_time": "07:00",
+          "arrival_time": "13:00",
+          "operating_days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "distance_km": 450.0,
+          "accessible": true
+        },
+        {
+          "source": "Amritsar",
+          "destination": "Delhi",
+          "mode": "train",
+          "duration_hours": 6.18,
+          "fare_per_person_inr": 927,
+          "departure_time": "14:00",
+          "arrival_time": "20:11",
+          "operating_days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "distance_km": 450.0,
+          "accessible": true
+        },
+        {
+          "source": "Delhi",
+          "destination": "Dehradun",
+          "mode": "flight",
+          "duration_hours": 1.1330000000000002,
+          "fare_per_person_inr": 5356,
+          "departure_time": "14:00",
+          "arrival_time": "15:08",
+          "operating_days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "distance_km": 240.0,
+          "accessible": true
+        }
+      ]
+    },
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-11-03",
+        "weekday": "Tuesday",
+        "city": "Delhi",
+        "kind": "travel",
+        "hotel": {
+          "id": "delhi_budget",
+          "city": "Delhi",
+          "name": "Delhi Traveller Stay",
+          "price_per_night_inr": 1500,
+          "comfort_level": "budget",
+          "amenities": [
+            "Wi-Fi",
+            "breakfast option",
+            "24-hour reception"
+          ],
+          "check_in": "14:00",
+          "check_out": "11:00",
+          "accessible": true,
+          "available_rooms": 8,
+          "max_guests_per_room": 2,
+          "rating": 3.8
+        },
+        "hotel_rooms": 1,
+        "hotel_check_in": "14:00",
+        "hotel_check_out": "11:00",
+        "transport_departure": "09:00",
+        "transport_arrival": "10:06",
+        "transport_arrival_date": "2026-11-03",
+        "transport_hours": 1.1,
+        "transport_cost_inr": 5200,
+        "activities": [],
+        "activity_note": "Travel and check in; keep the remaining time for rest.",
+        "meals": [
+          "Breakfast: local breakfast",
+          "Lunch: regional thali",
+          "Dinner: locally popular meal"
+        ],
+        "meal_breaks": [
+          {
+            "name": "Breakfast",
+            "time": "08:00"
+          },
+          {
+            "name": "Lunch",
+            "time": "12:30"
+          },
+          {
+            "name": "Dinner",
+            "time": "19:30"
+          }
+        ],
+        "rest_hours_after_travel": 8,
+        "recovery_buffer_scheduled": true,
+        "step_leg_index": 0,
+        "hotel_actual_check_out": "06:30",
+        "transport_legs": [
+          {
+            "source": "Dehradun",
+            "destination": "Delhi",
+            "mode": "flight",
+            "duration_hours": 1.1,
+            "fare_per_person_inr": 5200,
+            "departure_time": "09:00",
+            "arrival_time": "10:06",
+            "operating_days": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "distance_km": 240.0,
+            "accessible": true
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-11-04",
+        "weekday": "Wednesday",
+        "city": "Amritsar",
+        "kind": "travel",
+        "hotel": {
+          "id": "amritsar_budget",
+          "city": "Amritsar",
+          "name": "Amritsar Traveller Stay",
+          "price_per_night_inr": 1200,
+          "comfort_level": "budget",
+          "amenities": [
+            "Wi-Fi",
+            "breakfast option",
+            "24-hour reception"
+          ],
+          "check_in": "14:00",
+          "check_out": "11:00",
+          "accessible": true,
+          "available_rooms": 8,
+          "max_guests_per_room": 2,
+          "rating": 3.8
+        },
+        "hotel_rooms": 1,
+        "hotel_check_in": "14:00",
+        "hotel_check_out": "11:00",
+        "transport_departure": "07:00",
+        "transport_arrival": "13:00",
+        "transport_arrival_date": "2026-11-04",
+        "transport_hours": 6.0,
+        "transport_cost_inr": 900,
+        "activities": [],
+        "activity_note": "Travel and check in; keep the remaining time for rest.",
+        "meals": [
+          "Breakfast: local breakfast",
+          "Lunch: regional thali",
+          "Dinner: locally popular meal"
+        ],
+        "meal_breaks": [
+          {
+            "name": "Breakfast",
+            "time": "08:00"
+          },
+          {
+            "name": "Lunch",
+            "time": "12:30"
+          },
+          {
+            "name": "Dinner",
+            "time": "19:30"
+          }
+        ],
+        "rest_hours_after_travel": 12,
+        "recovery_buffer_scheduled": true,
+        "step_leg_index": 0,
+        "hotel_actual_check_out": "Continues",
+        "transport_legs": [
+          {
+            "source": "Delhi",
+            "destination": "Amritsar",
+            "mode": "train",
+            "duration_hours": 6.0,
+            "fare_per_person_inr": 900,
+            "departure_time": "07:00",
+            "arrival_time": "13:00",
+            "operating_days": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "distance_km": 450.0,
+            "accessible": true
+          }
+        ]
+      },
+      {
+        "day_number": 3,
+        "date": "2026-11-05",
+        "weekday": "Thursday",
+        "city": "Amritsar",
+        "kind": "stay",
+        "hotel": {
+          "id": "amritsar_budget",
+          "city": "Amritsar",
+          "name": "Amritsar Traveller Stay",
+          "price_per_night_inr": 1200,
+          "comfort_level": "budget",
+          "amenities": [
+            "Wi-Fi",
+            "breakfast option",
+            "24-hour reception"
+          ],
+          "check_in": "14:00",
+          "check_out": "11:00",
+          "accessible": true,
+          "available_rooms": 8,
+          "max_guests_per_room": 2,
+          "rating": 3.8
+        },
+        "hotel_rooms": 1,
+        "hotel_check_in": "Already checked in",
+        "hotel_check_out": "11:00",
+        "transport_departure": null,
+        "transport_arrival": null,
+        "transport_arrival_date": null,
+        "transport_hours": 0.0,
+        "transport_cost_inr": 0,
+        "activities": [
+          {
+            "id": "amritsar_2",
+            "city": "Amritsar",
+            "name": "Jallianwala Bagh",
+            "category": "history",
+            "rating": 4.6,
+            "entry_fee_inr": 0,
+            "duration_minutes": 90,
+            "opening_hours": "06:30-19:00",
+            "closed_days": "None",
+            "tags": [
+              "history"
+            ],
+            "last_entry": "17:30",
+            "accessible": true,
+            "location": "Amritsar city area",
+            "slot": "Morning",
+            "start_time": "09:00",
+            "end_time": "10:30",
+            "local_transport": "Auto/taxi or walk; allow 20–30 minutes between stops."
+          }
+        ],
+        "activity_note": "",
+        "meals": [
+          "Breakfast: local breakfast",
+          "Lunch: regional thali",
+          "Dinner: locally popular meal"
+        ],
+        "meal_breaks": [
+          {
+            "name": "Breakfast",
+            "time": "08:00"
+          },
+          {
+            "name": "Lunch",
+            "time": "12:30"
+          },
+          {
+            "name": "Dinner",
+            "time": "19:30"
+          }
+        ],
+        "rest_hours_after_travel": 8,
+        "recovery_buffer_scheduled": true,
+        "step_leg_index": 0,
+        "hotel_actual_check_out": "Continues",
+        "transport_legs": []
+      },
+      {
+        "day_number": 4,
+        "date": "2026-11-06",
+        "weekday": "Friday",
+        "city": "Amritsar",
+        "kind": "stay",
+        "hotel": {
+          "id": "amritsar_budget",
+          "city": "Amritsar",
+          "name": "Amritsar Traveller Stay",
+          "price_per_night_inr": 1200,
+          "comfort_level": "budget",
+          "amenities": [
+            "Wi-Fi",
+            "breakfast option",
+            "24-hour reception"
+          ],
+          "check_in": "14:00",
+          "check_out": "11:00",
+          "accessible": true,
+          "available_rooms": 8,
+          "max_guests_per_room": 2,
+          "rating": 3.8
+        },
+        "hotel_rooms": 1,
+        "hotel_check_in": "Already checked in",
+        "hotel_check_out": "11:00",
+        "transport_departure": null,
+        "transport_arrival": null,
+        "transport_arrival_date": null,
+        "transport_hours": 0.0,
+        "transport_cost_inr": 0,
+        "activities": [
+          {
+            "id": "amritsar_2",
+            "city": "Amritsar",
+            "name": "Jallianwala Bagh",
+            "category": "history",
+            "rating": 4.6,
+            "entry_fee_inr": 0,
+            "duration_minutes": 90,
+            "opening_hours": "06:30-19:00",
+            "closed_days": "None",
+            "tags": [
+              "history"
+            ],
+            "last_entry": "17:30",
+            "accessible": true,
+            "location": "Amritsar city area",
+            "slot": "Morning",
+            "start_time": "09:00",
+            "end_time": "10:30",
+            "local_transport": "Auto/taxi or walk; allow 20–30 minutes between stops."
+          }
+        ],
+        "activity_note": "",
+        "meals": [
+          "Breakfast: local breakfast",
+          "Lunch: regional thali",
+          "Dinner: locally popular meal"
+        ],
+        "meal_breaks": [
+          {
+            "name": "Breakfast",
+            "time": "08:00"
+          },
+          {
+            "name": "Lunch",
+            "time": "12:30"
+          },
+          {
+            "name": "Dinner",
+            "time": "19:30"
+          }
+        ],
+        "rest_hours_after_travel": 8,
+        "recovery_buffer_scheduled": true,
+        "step_leg_index": -1,
+        "hotel_actual_check_out": "Continues",
+        "transport_legs": []
+      },
+      {
+        "day_number": 5,
+        "date": "2026-11-07",
+        "weekday": "Saturday",
+        "city": "Amritsar",
+        "kind": "stay",
+        "hotel": {
+          "id": "amritsar_budget",
+          "city": "Amritsar",
+          "name": "Amritsar Traveller Stay",
+          "price_per_night_inr": 1200,
+          "comfort_level": "budget",
+          "amenities": [
+            "Wi-Fi",
+            "breakfast option",
+            "24-hour reception"
+          ],
+          "check_in": "14:00",
+          "check_out": "11:00",
+          "accessible": true,
+          "available_rooms": 8,
+          "max_guests_per_room": 2,
+          "rating": 3.8
+        },
+        "hotel_rooms": 1,
+        "hotel_check_in": "Already checked in",
+        "hotel_check_out": "11:00",
+        "transport_departure": null,
+        "transport_arrival": null,
+        "transport_arrival_date": null,
+        "transport_hours": 0.0,
+        "transport_cost_inr": 0,
+        "activities": [
+          {
+            "id": "amritsar_2",
+            "city": "Amritsar",
+            "name": "Jallianwala Bagh",
+            "category": "history",
+            "rating": 4.6,
+            "entry_fee_inr": 0,
+            "duration_minutes": 90,
+            "opening_hours": "06:30-19:00",
+            "closed_days": "None",
+            "tags": [
+              "history"
+            ],
+            "last_entry": "17:30",
+            "accessible": true,
+            "location": "Amritsar city area",
+            "slot": "Morning",
+            "start_time": "09:00",
+            "end_time": "10:30",
+            "local_transport": "Auto/taxi or walk; allow 20–30 minutes between stops."
+          }
+        ],
+        "activity_note": "",
+        "meals": [
+          "Breakfast: local breakfast",
+          "Lunch: regional thali",
+          "Dinner: locally popular meal"
+        ],
+        "meal_breaks": [
+          {
+            "name": "Breakfast",
+            "time": "08:00"
+          },
+          {
+            "name": "Lunch",
+            "time": "12:30"
+          },
+          {
+            "name": "Dinner",
+            "time": "19:30"
+          }
+        ],
+        "rest_hours_after_travel": 8,
+        "recovery_buffer_scheduled": true,
+        "step_leg_index": -1,
+        "hotel_actual_check_out": "13:30",
+        "transport_legs": []
+      },
+      {
+        "day_number": 6,
+        "date": "2026-11-08",
+        "weekday": "Sunday",
+        "city": "Delhi",
+        "kind": "travel",
+        "hotel": {
+          "id": "delhi_budget",
+          "city": "Delhi",
+          "name": "Delhi Traveller Stay",
+          "price_per_night_inr": 1500,
+          "comfort_level": "budget",
+          "amenities": [
+            "Wi-Fi",
+            "breakfast option",
+            "24-hour reception"
+          ],
+          "check_in": "14:00",
+          "check_out": "11:00",
+          "accessible": true,
+          "available_rooms": 8,
+          "max_guests_per_room": 2,
+          "rating": 3.8
+        },
+        "hotel_rooms": 1,
+        "hotel_check_in": "14:00",
+        "hotel_check_out": "11:00",
+        "transport_departure": "14:00",
+        "transport_arrival": "20:11",
+        "transport_arrival_date": "2026-11-08",
+        "transport_hours": 6.18,
+        "transport_cost_inr": 927,
+        "activities": [],
+        "activity_note": "Travel and check in; keep the remaining time for rest.",
+        "meals": [
+          "Breakfast: local breakfast",
+          "Lunch: regional thali",
+          "Dinner: locally popular meal"
+        ],
+        "meal_breaks": [
+          {
+            "name": "Breakfast",
+            "time": "08:00"
+          },
+          {
+            "name": "Lunch",
+            "time": "12:30"
+          },
+          {
+            "name": "Dinner",
+            "time": "19:30"
+          }
+        ],
+        "rest_hours_after_travel": 12,
+        "recovery_buffer_scheduled": true,
+        "step_leg_index": 1,
+        "hotel_actual_check_out": "13:30",
+        "transport_legs": [
+          {
+            "source": "Amritsar",
+            "destination": "Delhi",
+            "mode": "train",
+            "duration_hours": 6.18,
+            "fare_per_person_inr": 927,
+            "departure_time": "14:00",
+            "arrival_time": "20:11",
+            "operating_days": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "distance_km": 450.0,
+            "accessible": true
+          }
+        ]
+      },
+      {
+        "day_number": 7,
+        "date": "2026-11-09",
+        "weekday": "Monday",
+        "city": "Dehradun",
+        "kind": "travel",
+        "hotel": {},
+        "hotel_rooms": 0,
+        "hotel_check_in": "—",
+        "hotel_check_out": "—",
+        "transport_departure": "14:00",
+        "transport_arrival": "15:08",
+        "transport_arrival_date": "2026-11-09",
+        "transport_hours": 1.1330000000000002,
+        "transport_cost_inr": 5356,
+        "activities": [],
+        "activity_note": "Travel and check in; keep the remaining time for rest.",
+        "meals": [
+          "Breakfast: local breakfast",
+          "Lunch: regional thali",
+          "Dinner: locally popular meal"
+        ],
+        "meal_breaks": [
+          {
+            "name": "Breakfast",
+            "time": "08:00"
+          },
+          {
+            "name": "Lunch",
+            "time": "12:30"
+          },
+          {
+            "name": "Dinner",
+            "time": "19:30"
+          }
+        ],
+        "rest_hours_after_travel": 8,
+        "recovery_buffer_scheduled": true,
+        "step_leg_index": 1,
+        "transport_legs": [
+          {
+            "source": "Delhi",
+            "destination": "Dehradun",
+            "mode": "flight",
+            "duration_hours": 1.1330000000000002,
+            "fare_per_person_inr": 5356,
+            "departure_time": "14:00",
+            "arrival_time": "15:08",
+            "operating_days": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "distance_km": 240.0,
+            "accessible": true
+          }
+        ]
+      }
+    ],
+    "costs": {
+      "transport_inr": 12383,
+      "hotel_inr": 7800,
+      "food_inr": 4600,
+      "local_transport_inr": 2100,
+      "attraction_fees_inr": 0,
+      "subtotal_inr": 26883,
+      "contingency_rate": 0.12,
+      "contingency_inr": 3226,
+      "estimated_total_inr": 30109,
+      "daily": [
+        {
+          "day": 1,
+          "city": "Delhi",
+          "transport": 5200,
+          "hotel": 1500,
+          "food": 900,
+          "local_transport": 450,
+          "attractions": 0,
+          "subtotal": 8050
+        },
+        {
+          "day": 2,
+          "city": "Amritsar",
+          "transport": 900,
+          "hotel": 1200,
+          "food": 700,
+          "local_transport": 300,
+          "attractions": 0,
+          "subtotal": 3100
+        },
+        {
+          "day": 3,
+          "city": "Amritsar",
+          "transport": 0,
+          "hotel": 1200,
+          "food": 700,
+          "local_transport": 300,
+          "attractions": 0,
+          "subtotal": 2200
+        },
+        {
+          "day": 4,
+          "city": "Amritsar",
+          "transport": 0,
+          "hotel": 1200,
+          "food": 700,
+          "local_transport": 300,
+          "attractions": 0,
+          "subtotal": 2200
+        },
+        {
+          "day": 5,
+          "city": "Amritsar",
+          "transport": 0,
+          "hotel": 1200,
+          "food": 700,
+          "local_transport": 300,
+          "attractions": 0,
+          "subtotal": 2200
+        },
+        {
+          "day": 6,
+          "city": "Delhi",
+          "transport": 927,
+          "hotel": 1500,
+          "food": 900,
+          "local_transport": 450,
+          "attractions": 0,
+          "subtotal": 3777
+        },
+        {
+          "day": 7,
+          "city": "Dehradun",
+          "transport": 5356,
+          "hotel": 0,
+          "food": 0,
+          "local_transport": 0,
+          "attractions": 0,
+          "subtotal": 5356
+        }
+      ]
+    },
+    "utility_score": 68.1,
+    "validations": [
+      {
+        "constraint": "Budget constraint",
+        "passed": false,
+        "message": "Estimated ₹30,109 including 12% contingency; daily cap is ₹10,000.",
+        "suggestion": "Increase the total or daily budget, choose cheaper hotels/transport, or remove a stop."
+      },
+      {
+        "constraint": "Trip duration constraint",
+        "passed": true,
+        "message": "The schedule uses 7 day(s); 7 day(s) are available across a 8-day date range.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Reachability constraint",
+        "passed": true,
+        "message": "Every planned leg has a route in the offline network.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Transport schedule constraint",
+        "passed": true,
+        "message": "Each service operates on its travel day and transfer/recovery buffers are sufficient.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Hotel availability constraint",
+        "passed": true,
+        "message": "A matching hotel and enough rooms are available for every overnight city.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Attraction opening-hours constraint",
+        "passed": true,
+        "message": "All scheduled attractions fit their opening windows.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Interest match",
+        "passed": true,
+        "message": "Each selected destination has at least one scheduled attraction matching your interests.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "No overlapping activities",
+        "passed": true,
+        "message": "Scheduled attraction time blocks do not overlap.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Daily travel-time limit",
+        "passed": true,
+        "message": "Longest scheduled travel day is 6.2 hours; limit is 8.0 hours.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Meal-break constraint",
+        "passed": true,
+        "message": "Breakfast, lunch, and dinner breaks are reserved each day.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Rest after long journeys",
+        "passed": true,
+        "message": "Long travel legs are followed by an overnight rest before planned activities.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Hotel check-in/check-out constraint",
+        "passed": true,
+        "message": "Hotel arrival and departure times are compatible with the route; early departures use early check-out.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Accessibility constraint",
+        "passed": true,
+        "message": "Hotels, selected transport, and scheduled attractions match the accessibility filter.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Dietary constraint",
+        "passed": true,
+        "message": "Meal suggestions are tailored for no preference.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Return-route constraint",
+        "passed": true,
+        "message": "The route returns to the origin.",
+        "suggestion": ""
+      }
+    ],
+    "reasoning": [
+      "Route chosen by UCS for minimum time: Dehradun → Delhi → Amritsar → Delhi → Dehradun (4 leg(s), 14.4 travel hours).",
+      "Included Amritsar because its attractions match history, nature; matches include Jallianwala Bagh, Wagah Border ceremony.",
+      "Amritsar Traveller Stay in Amritsar matches the budget level and ₹1,200/night range.",
+      "Amritsar activities were picked for interest fit and ratings: Jallianwala Bagh, Jallianwala Bagh, Jallianwala Bagh.",
+      "Estimated total includes a 12% contingency: ₹30,109.",
+      "Utility score 68.1/100 balances cost, time, preference fit, and attraction quality using your sliders.",
+      "Included Amritsar because you selected it and it passed the attraction and hotel filters."
+    ]
+  },
+  {
+    "saved_at": "2026-10-27T04:23",
+    "request": {
+      "origin": "Dehradun",
+      "destination_cities": [
+        "Varanasi"
+      ],
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-07",
+      "available_days": 5,
+      "total_budget_inr": 25000.0,
+      "daily_budget_limit_inr": 10000.0,
+      "travellers": 1,
+      "interests": [
+        "history",
+        "nature"
+      ],
+      "transport_mode": "train",
+      "max_daily_travel_hours": 8.0,
+      "hotel_min_inr": 500,
+      "hotel_max_inr": 5000,
+      "hotel_comfort": "budget",
+      "travel_pace": "normal",
+      "must_visit": [],
+      "excluded_items": [],
+      "dietary_preference": "no preference",
+      "accessibility_needs": "",
+      "return_to_origin": true,
+      "priority_weights": {
+        "cost": 35,
+        "time": 45,
+        "preferences": 45,
+        "quality": 45
+      }
+    },
+    "route": {
+      "algorithm": "A*",
+      "metric": "time",
+      "nodes": [
+        "Dehradun",
+        "Delhi",
+        "Varanasi",
+        "Delhi",
+        "Dehradun"
+      ],
+      "destination_order": [
+        "Varanasi"
+      ],
+      "total_cost_per_traveller": 3592.0,
+      "total_time_hours": 35.931,
+      "hops": 4,
+      "edges": [
+        {
+          "source": "Dehradun",
+          "destination": "Delhi",
+          "mode": "train",
+          "duration_hours": 6.2,
+          "fare_per_person_inr": 520,
+          "departure_time": "06:00",
+          "arrival_time": "12:12",
+          "operating_days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "distance_km": 490.0,
+          "accessible": true
+        },
+        {
+          "source": "Delhi",
+          "destination": "Varanasi",
+          "mode": "train",
+          "duration_hours": 11.5,
+          "fare_per_person_inr": 1250,
+          "departure_time": "18:00",
+          "arrival_time": "05:30",
+          "operating_days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "distance_km": 780.0,
+          "accessible": true
+        },
+        {
+          "source": "Varanasi",
+          "destination": "Delhi",
+          "mode": "train",
+          "duration_hours": 11.845,
+          "fare_per_person_inr": 1287,
+          "departure_time": "08:00",
+          "arrival_time": "19:51",
+          "operating_days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "distance_km": 780.0,
+          "accessible": true
+        },
+        {
+          "source": "Delhi",
+          "destination": "Dehradun",
+          "mode": "train",
+          "duration_hours": 6.386,
+          "fare_per_person_inr": 535,
+          "departure_time": "14:00",
+          "arrival_time": "20:23",
+          "operating_days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "distance_km": 490.0,
+          "accessible": true
+        }
+      ]
+    },
+    "days": [
+      {
+        "day_number": 1,
+        "date": "2026-11-03",
+        "weekday": "Tuesday",
+        "city": "Delhi",
+        "kind": "travel",
+        "hotel": {
+          "id": "delhi_budget",
+          "city": "Delhi",
+          "name": "Delhi Traveller Stay",
+          "price_per_night_inr": 1500,
+          "comfort_level": "budget",
+          "amenities": [
+            "Wi-Fi",
+            "breakfast option",
+            "24-hour reception"
+          ],
+          "check_in": "14:00",
+          "check_out": "11:00",
+          "accessible": true,
+          "available_rooms": 8,
+          "max_guests_per_room": 2,
+          "rating": 3.8
+        },
+        "hotel_rooms": 1,
+        "hotel_check_in": "14:00",
+        "hotel_check_out": "11:00",
+        "transport_departure": "06:00",
+        "transport_arrival": "12:12",
+        "transport_arrival_date": "2026-11-03",
+        "transport_hours": 6.2,
+        "transport_cost_inr": 520,
+        "activities": [],
+        "activity_note": "Travel and check in; keep the remaining time for rest.",
+        "meals": [
+          "Breakfast: local breakfast",
+          "Lunch: regional thali",
+          "Dinner: locally popular meal"
+        ],
+        "meal_breaks": [
+          {
+            "name": "Breakfast",
+            "time": "08:00"
+          },
+          {
+            "name": "Lunch",
+            "time": "12:30"
+          },
+          {
+            "name": "Dinner",
+            "time": "19:30"
+          }
+        ],
+        "rest_hours_after_travel": 12,
+        "recovery_buffer_scheduled": true,
+        "step_leg_index": 0,
+        "hotel_actual_check_out": "17:30",
+        "transport_legs": [
+          {
+            "source": "Dehradun",
+            "destination": "Delhi",
+            "mode": "train",
+            "duration_hours": 6.2,
+            "fare_per_person_inr": 520,
+            "departure_time": "06:00",
+            "arrival_time": "12:12",
+            "operating_days": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "distance_km": 490.0,
+            "accessible": true
+          }
+        ]
+      },
+      {
+        "day_number": 2,
+        "date": "2026-11-04",
+        "weekday": "Wednesday",
+        "city": "Varanasi",
+        "kind": "travel",
+        "hotel": {},
+        "hotel_rooms": 0,
+        "hotel_check_in": "—",
+        "hotel_check_out": "—",
+        "transport_departure": "18:00",
+        "transport_arrival": "05:30",
+        "transport_arrival_date": "2026-11-05",
+        "transport_hours": 11.5,
+        "transport_cost_inr": 1250,
+        "activities": [],
+        "activity_note": "Overnight travel; hotel check-in is scheduled for the arrival date.",
+        "meals": [
+          "Breakfast: local breakfast",
+          "Lunch: regional thali",
+          "Dinner: locally popular meal"
+        ],
+        "meal_breaks": [
+          {
+            "name": "Breakfast",
+            "time": "08:00"
+          },
+          {
+            "name": "Lunch",
+            "time": "12:30"
+          },
+          {
+            "name": "Dinner",
+            "time": "19:30"
+          }
+        ],
+        "rest_hours_after_travel": 12,
+        "recovery_buffer_scheduled": true,
+        "step_leg_index": 0,
+        "transport_legs": [
+          {
+            "source": "Delhi",
+            "destination": "Varanasi",
+            "mode": "train",
+            "duration_hours": 11.5,
+            "fare_per_person_inr": 1250,
+            "departure_time": "18:00",
+            "arrival_time": "05:30",
+            "operating_days": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "distance_km": 780.0,
+            "accessible": true
+          }
+        ]
+      },
+      {
+        "day_number": 3,
+        "date": "2026-11-05",
+        "weekday": "Thursday",
+        "city": "Varanasi",
+        "kind": "rest",
+        "hotel": {
+          "id": "varanasi_budget",
+          "city": "Varanasi",
+          "name": "Varanasi Traveller Stay",
+          "price_per_night_inr": 1000,
+          "comfort_level": "budget",
+          "amenities": [
+            "Wi-Fi",
+            "breakfast option",
+            "24-hour reception"
+          ],
+          "check_in": "14:00",
+          "check_out": "11:00",
+          "accessible": true,
+          "available_rooms": 8,
+          "max_guests_per_room": 2,
+          "rating": 3.8
+        },
+        "hotel_rooms": 1,
+        "hotel_check_in": "14:00",
+        "hotel_check_out": "11:00",
+        "transport_departure": null,
+        "transport_arrival": null,
+        "transport_arrival_date": null,
+        "transport_hours": 0.0,
+        "transport_cost_inr": 0,
+        "activities": [],
+        "activity_note": "Rest and allow a full recovery/connection buffer.",
+        "meals": [
+          "Breakfast: local breakfast",
+          "Lunch: regional thali",
+          "Dinner: locally popular meal"
+        ],
+        "meal_breaks": [
+          {
+            "name": "Breakfast",
+            "time": "08:00"
+          },
+          {
+            "name": "Lunch",
+            "time": "12:30"
+          },
+          {
+            "name": "Dinner",
+            "time": "19:30"
+          }
+        ],
+        "rest_hours_after_travel": 8,
+        "recovery_buffer_scheduled": true,
+        "step_leg_index": 0,
+        "hotel_actual_check_out": "Continues",
+        "transport_legs": []
+      },
+      {
+        "day_number": 4,
+        "date": "2026-11-06",
+        "weekday": "Friday",
+        "city": "Varanasi",
+        "kind": "stay",
+        "hotel": {
+          "id": "varanasi_budget",
+          "city": "Varanasi",
+          "name": "Varanasi Traveller Stay",
+          "price_per_night_inr": 1000,
+          "comfort_level": "budget",
+          "amenities": [
+            "Wi-Fi",
+            "breakfast option",
+            "24-hour reception"
+          ],
+          "check_in": "14:00",
+          "check_out": "11:00",
+          "accessible": true,
+          "available_rooms": 8,
+          "max_guests_per_room": 2,
+          "rating": 3.8
+        },
+        "hotel_rooms": 1,
+        "hotel_check_in": "Already checked in",
+        "hotel_check_out": "11:00",
+        "transport_departure": null,
+        "transport_arrival": null,
+        "transport_arrival_date": null,
+        "transport_hours": 0.0,
+        "transport_cost_inr": 0,
+        "activities": [
+          {
+            "id": "varanasi_3",
+            "city": "Varanasi",
+            "name": "Sarnath",
+            "category": "history",
+            "rating": 4.6,
+            "entry_fee_inr": 20,
+            "duration_minutes": 150,
+            "opening_hours": "08:00-17:00",
+            "closed_days": "None",
+            "tags": [
+              "history",
+              "religious places"
+            ],
+            "last_entry": "15:30",
+            "accessible": true,
+            "location": "Varanasi city area",
+            "slot": "Morning",
+            "start_time": "09:00",
+            "end_time": "11:30",
+            "local_transport": "Auto/taxi or walk; allow 20–30 minutes between stops."
+          }
+        ],
+        "activity_note": "",
+        "meals": [
+          "Breakfast: local breakfast",
+          "Lunch: regional thali",
+          "Dinner: locally popular meal"
+        ],
+        "meal_breaks": [
+          {
+            "name": "Breakfast",
+            "time": "08:00"
+          },
+          {
+            "name": "Lunch",
+            "time": "12:30"
+          },
+          {
+            "name": "Dinner",
+            "time": "19:30"
+          }
+        ],
+        "rest_hours_after_travel": 8,
+        "recovery_buffer_scheduled": true,
+        "step_leg_index": 0,
+        "hotel_actual_check_out": "07:30",
+        "transport_legs": []
+      },
+      {
+        "day_number": 5,
+        "date": "2026-11-07",
+        "weekday": "Saturday",
+        "city": "Delhi",
+        "kind": "travel",
+        "hotel": {
+          "id": "delhi_budget",
+          "city": "Delhi",
+          "name": "Delhi Traveller Stay",
+          "price_per_night_inr": 1500,
+          "comfort_level": "budget",
+          "amenities": [
+            "Wi-Fi",
+            "breakfast option",
+            "24-hour reception"
+          ],
+          "check_in": "14:00",
+          "check_out": "11:00",
+          "accessible": true,
+          "available_rooms": 8,
+          "max_guests_per_room": 2,
+          "rating": 3.8
+        },
+        "hotel_rooms": 1,
+        "hotel_check_in": "14:00",
+        "hotel_check_out": "11:00",
+        "transport_departure": "08:00",
+        "transport_arrival": "19:51",
+        "transport_arrival_date": "2026-11-07",
+        "transport_hours": 11.845,
+        "transport_cost_inr": 1287,
+        "activities": [],
+        "activity_note": "Travel and check in; keep the remaining time for rest.",
+        "meals": [
+          "Breakfast: local breakfast",
+          "Lunch: regional thali",
+          "Dinner: locally popular meal"
+        ],
+        "meal_breaks": [
+          {
+            "name": "Breakfast",
+            "time": "08:00"
+          },
+          {
+            "name": "Lunch",
+            "time": "12:30"
+          },
+          {
+            "name": "Dinner",
+            "time": "19:30"
+          }
+        ],
+        "rest_hours_after_travel": 12,
+        "recovery_buffer_scheduled": true,
+        "step_leg_index": 1,
+        "hotel_actual_check_out": "13:30",
+        "transport_legs": [
+          {
+            "source": "Varanasi",
+            "destination": "Delhi",
+            "mode": "train",
+            "duration_hours": 11.845,
+            "fare_per_person_inr": 1287,
+            "departure_time": "08:00",
+            "arrival_time": "19:51",
+            "operating_days": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "distance_km": 780.0,
+            "accessible": true
+          }
+        ]
+      },
+      {
+        "day_number": 6,
+        "date": "2026-11-08",
+        "weekday": "Sunday",
+        "city": "Dehradun",
+        "kind": "travel",
+        "hotel": {},
+        "hotel_rooms": 0,
+        "hotel_check_in": "—",
+        "hotel_check_out": "—",
+        "transport_departure": "14:00",
+        "transport_arrival": "20:23",
+        "transport_arrival_date": "2026-11-08",
+        "transport_hours": 6.386,
+        "transport_cost_inr": 535,
+        "activities": [],
+        "activity_note": "Travel and check in; keep the remaining time for rest.",
+        "meals": [
+          "Breakfast: local breakfast",
+          "Lunch: regional thali",
+          "Dinner: locally popular meal"
+        ],
+        "meal_breaks": [
+          {
+            "name": "Breakfast",
+            "time": "08:00"
+          },
+          {
+            "name": "Lunch",
+            "time": "12:30"
+          },
+          {
+            "name": "Dinner",
+            "time": "19:30"
+          }
+        ],
+        "rest_hours_after_travel": 12,
+        "recovery_buffer_scheduled": true,
+        "step_leg_index": 1,
+        "transport_legs": [
+          {
+            "source": "Delhi",
+            "destination": "Dehradun",
+            "mode": "train",
+            "duration_hours": 6.386,
+            "fare_per_person_inr": 535,
+            "departure_time": "14:00",
+            "arrival_time": "20:23",
+            "operating_days": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "distance_km": 490.0,
+            "accessible": true
+          }
+        ]
+      }
+    ],
+    "costs": {
+      "transport_inr": 3592,
+      "hotel_inr": 5000,
+      "food_inr": 3600,
+      "local_transport_inr": 1740,
+      "attraction_fees_inr": 20,
+      "subtotal_inr": 13952,
+      "contingency_rate": 0.12,
+      "contingency_inr": 1674,
+      "estimated_total_inr": 15626,
+      "daily": [
+        {
+          "day": 1,
+          "city": "Delhi",
+          "transport": 520,
+          "hotel": 1500,
+          "food": 900,
+          "local_transport": 450,
+          "attractions": 0,
+          "subtotal": 3370
+        },
+        {
+          "day": 2,
+          "city": "Varanasi",
+          "transport": 1250,
+          "hotel": 0,
+          "food": 600,
+          "local_transport": 280,
+          "attractions": 0,
+          "subtotal": 2130
+        },
+        {
+          "day": 3,
+          "city": "Varanasi",
+          "transport": 0,
+          "hotel": 1000,
+          "food": 600,
+          "local_transport": 280,
+          "attractions": 0,
+          "subtotal": 1880
+        },
+        {
+          "day": 4,
+          "city": "Varanasi",
+          "transport": 0,
+          "hotel": 1000,
+          "food": 600,
+          "local_transport": 280,
+          "attractions": 20,
+          "subtotal": 1900
+        },
+        {
+          "day": 5,
+          "city": "Delhi",
+          "transport": 1287,
+          "hotel": 1500,
+          "food": 900,
+          "local_transport": 450,
+          "attractions": 0,
+          "subtotal": 4137
+        },
+        {
+          "day": 6,
+          "city": "Dehradun",
+          "transport": 535,
+          "hotel": 0,
+          "food": 0,
+          "local_transport": 0,
+          "attractions": 0,
+          "subtotal": 535
+        }
+      ]
+    },
+    "utility_score": 67.9,
+    "validations": [
+      {
+        "constraint": "Budget constraint",
+        "passed": true,
+        "message": "Estimated ₹15,626 including 12% contingency; daily cap is ₹10,000.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Trip duration constraint",
+        "passed": false,
+        "message": "The schedule uses 6 day(s); 5 day(s) are available across a 5-day date range.",
+        "suggestion": "Add a day, shorten the route, or align the dates with the available-day count."
+      },
+      {
+        "constraint": "Reachability constraint",
+        "passed": true,
+        "message": "Every planned leg has a route in the offline network.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Transport schedule constraint",
+        "passed": true,
+        "message": "Each service operates on its travel day and transfer/recovery buffers are sufficient.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Hotel availability constraint",
+        "passed": true,
+        "message": "A matching hotel and enough rooms are available for every overnight city.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Attraction opening-hours constraint",
+        "passed": true,
+        "message": "All scheduled attractions fit their opening windows.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Interest match",
+        "passed": true,
+        "message": "Each selected destination has at least one scheduled attraction matching your interests.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "No overlapping activities",
+        "passed": true,
+        "message": "Scheduled attraction time blocks do not overlap.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Daily travel-time limit",
+        "passed": false,
+        "message": "Longest scheduled travel day is 11.8 hours; limit is 8.0 hours.",
+        "suggestion": "Choose a faster mode, increase the daily travel limit, or split the journey with an extra day."
+      },
+      {
+        "constraint": "Meal-break constraint",
+        "passed": true,
+        "message": "Breakfast, lunch, and dinner breaks are reserved each day.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Rest after long journeys",
+        "passed": true,
+        "message": "Long travel legs are followed by an overnight rest before planned activities.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Hotel check-in/check-out constraint",
+        "passed": true,
+        "message": "Hotel arrival and departure times are compatible with the route; early departures use early check-out.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Accessibility constraint",
+        "passed": true,
+        "message": "Hotels, selected transport, and scheduled attractions match the accessibility filter.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Dietary constraint",
+        "passed": true,
+        "message": "Meal suggestions are tailored for no preference.",
+        "suggestion": ""
+      },
+      {
+        "constraint": "Return-route constraint",
+        "passed": true,
+        "message": "The route returns to the origin.",
+        "suggestion": ""
+      }
+    ],
+    "reasoning": [
+      "Route chosen by A* for minimum time: Dehradun → Delhi → Varanasi → Delhi → Dehradun (4 leg(s), 35.9 travel hours).",
+      "Included Varanasi because its attractions match history, nature; matches include Sarnath, Assi Ghat sunrise walk.",
+      "Varanasi Traveller Stay in Varanasi matches the budget level and ₹1,000/night range.",
+      "Varanasi activities were picked for interest fit and ratings: Sarnath.",
+      "Estimated total includes a 12% contingency: ₹15,626.",
+      "Utility score 67.9/100 balances cost, time, preference fit, and attraction quality using your sliders.",
+      "Included Varanasi because you selected it and it passed the attraction and hotel filters.",
+      "The route needs 6 calendar days, but only 5 are available."
+    ]
+  }
+]

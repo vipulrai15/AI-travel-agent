@@ -1,0 +1,907 @@
+[
+  {
+    "id": "dehradun_1",
+    "city": "Dehradun",
+    "name": "Forest Research Institute",
+    "category": "history",
+    "rating": 4.6,
+    "entry_fee_inr": 40,
+    "duration_minutes": 100,
+    "opening_hours": "09:00-17:00",
+    "closed_days": "Sunday",
+    "tags": [
+      "history",
+      "architecture",
+      "nature"
+    ],
+    "last_entry": "16:00",
+    "accessible": true,
+    "location": "Dehradun city area"
+  },
+  {
+    "id": "dehradun_2",
+    "city": "Dehradun",
+    "name": "Robber’s Cave (Guchhupani)",
+    "category": "nature",
+    "rating": 4.3,
+    "entry_fee_inr": 35,
+    "duration_minutes": 120,
+    "opening_hours": "07:00-18:00",
+    "closed_days": "None",
+    "tags": [
+      "nature",
+      "adventure"
+    ],
+    "last_entry": "16:30",
+    "accessible": false,
+    "location": "Dehradun city area"
+  },
+  {
+    "id": "dehradun_3",
+    "city": "Dehradun",
+    "name": "Mindrolling Monastery",
+    "category": "religious",
+    "rating": 4.5,
+    "entry_fee_inr": 0,
+    "duration_minutes": 75,
+    "opening_hours": "09:00-19:00",
+    "closed_days": "None",
+    "tags": [
+      "religious places",
+      "culture"
+    ],
+    "last_entry": "18:00",
+    "accessible": true,
+    "location": "Dehradun city area"
+  },
+  {
+    "id": "dehradun_4",
+    "city": "Dehradun",
+    "name": "Sahastradhara",
+    "category": "nature",
+    "rating": 4.1,
+    "entry_fee_inr": 30,
+    "duration_minutes": 120,
+    "opening_hours": "08:00-18:00",
+    "closed_days": "None",
+    "tags": [
+      "nature",
+      "family"
+    ],
+    "last_entry": "16:30",
+    "accessible": false,
+    "location": "Dehradun city area"
+  },
+  {
+    "id": "delhi_1",
+    "city": "Delhi",
+    "name": "Humayun’s Tomb",
+    "category": "history",
+    "rating": 4.7,
+    "entry_fee_inr": 40,
+    "duration_minutes": 120,
+    "opening_hours": "06:00-18:00",
+    "closed_days": "None",
+    "tags": [
+      "history",
+      "architecture"
+    ],
+    "last_entry": "17:00",
+    "accessible": true,
+    "location": "Delhi city area"
+  },
+  {
+    "id": "delhi_2",
+    "city": "Delhi",
+    "name": "National Museum",
+    "category": "history",
+    "rating": 4.5,
+    "entry_fee_inr": 20,
+    "duration_minutes": 150,
+    "opening_hours": "10:00-18:00",
+    "closed_days": "Monday",
+    "tags": [
+      "history",
+      "culture"
+    ],
+    "last_entry": "17:00",
+    "accessible": true,
+    "location": "Delhi city area"
+  },
+  {
+    "id": "delhi_3",
+    "city": "Delhi",
+    "name": "Lotus Temple",
+    "category": "religious",
+    "rating": 4.5,
+    "entry_fee_inr": 0,
+    "duration_minutes": 75,
+    "opening_hours": "09:00-17:30",
+    "closed_days": "Monday",
+    "tags": [
+      "religious places",
+      "architecture"
+    ],
+    "last_entry": "16:30",
+    "accessible": true,
+    "location": "Delhi city area"
+  },
+  {
+    "id": "delhi_4",
+    "city": "Delhi",
+    "name": "Chandni Chowk food walk",
+    "category": "food",
+    "rating": 4.6,
+    "entry_fee_inr": 0,
+    "duration_minutes": 120,
+    "opening_hours": "10:00-20:00",
+    "closed_days": "None",
+    "tags": [
+      "food",
+      "shopping"
+    ],
+    "last_entry": "18:00",
+    "accessible": false,
+    "location": "Delhi city area"
+  },
+  {
+    "id": "delhi_5",
+    "city": "Delhi",
+    "name": "Lodhi Garden",
+    "category": "nature",
+    "rating": 4.5,
+    "entry_fee_inr": 0,
+    "duration_minutes": 90,
+    "opening_hours": "06:00-19:30",
+    "closed_days": "None",
+    "tags": [
+      "nature",
+      "relaxed"
+    ],
+    "last_entry": "18:00",
+    "accessible": true,
+    "location": "Delhi city area"
+  },
+  {
+    "id": "rishikesh_1",
+    "city": "Rishikesh",
+    "name": "Triveni Ghat",
+    "category": "religious",
+    "rating": 4.6,
+    "entry_fee_inr": 0,
+    "duration_minutes": 90,
+    "opening_hours": "05:00-21:00",
+    "closed_days": "None",
+    "tags": [
+      "religious places",
+      "culture"
+    ],
+    "last_entry": "20:00",
+    "accessible": true,
+    "location": "Rishikesh city area"
+  },
+  {
+    "id": "rishikesh_2",
+    "city": "Rishikesh",
+    "name": "Ram Jhula and riverside walk",
+    "category": "nature",
+    "rating": 4.5,
+    "entry_fee_inr": 0,
+    "duration_minutes": 120,
+    "opening_hours": "06:00-19:00",
+    "closed_days": "None",
+    "tags": [
+      "nature",
+      "walking"
+    ],
+    "last_entry": "18:00",
+    "accessible": false,
+    "location": "Rishikesh city area"
+  },
+  {
+    "id": "rishikesh_3",
+    "city": "Rishikesh",
+    "name": "Neer Garh Waterfall",
+    "category": "adventure",
+    "rating": 4.3,
+    "entry_fee_inr": 50,
+    "duration_minutes": 150,
+    "opening_hours": "08:00-17:00",
+    "closed_days": "None",
+    "tags": [
+      "adventure",
+      "nature"
+    ],
+    "last_entry": "15:00",
+    "accessible": false,
+    "location": "Rishikesh city area"
+  },
+  {
+    "id": "rishikesh_4",
+    "city": "Rishikesh",
+    "name": "River rafting stretch",
+    "category": "adventure",
+    "rating": 4.7,
+    "entry_fee_inr": 1200,
+    "duration_minutes": 180,
+    "opening_hours": "08:00-16:00",
+    "closed_days": "Monsoon seasonal",
+    "tags": [
+      "adventure",
+      "nature"
+    ],
+    "last_entry": "13:00",
+    "accessible": false,
+    "location": "Rishikesh city area"
+  },
+  {
+    "id": "haridwar_1",
+    "city": "Haridwar",
+    "name": "Har Ki Pauri",
+    "category": "religious",
+    "rating": 4.7,
+    "entry_fee_inr": 0,
+    "duration_minutes": 90,
+    "opening_hours": "05:00-22:00",
+    "closed_days": "None",
+    "tags": [
+      "religious places",
+      "culture"
+    ],
+    "last_entry": "20:00",
+    "accessible": true,
+    "location": "Haridwar city area"
+  },
+  {
+    "id": "haridwar_2",
+    "city": "Haridwar",
+    "name": "Mansa Devi Temple",
+    "category": "religious",
+    "rating": 4.4,
+    "entry_fee_inr": 0,
+    "duration_minutes": 120,
+    "opening_hours": "07:00-19:00",
+    "closed_days": "None",
+    "tags": [
+      "religious places",
+      "nature"
+    ],
+    "last_entry": "17:00",
+    "accessible": false,
+    "location": "Haridwar city area"
+  },
+  {
+    "id": "haridwar_3",
+    "city": "Haridwar",
+    "name": "Shantikunj",
+    "category": "religious",
+    "rating": 4.5,
+    "entry_fee_inr": 0,
+    "duration_minutes": 90,
+    "opening_hours": "08:00-20:00",
+    "closed_days": "None",
+    "tags": [
+      "religious places",
+      "culture"
+    ],
+    "last_entry": "18:00",
+    "accessible": true,
+    "location": "Haridwar city area"
+  },
+  {
+    "id": "agra_1",
+    "city": "Agra",
+    "name": "Taj Mahal",
+    "category": "history",
+    "rating": 4.8,
+    "entry_fee_inr": 50,
+    "duration_minutes": 180,
+    "opening_hours": "06:00-18:30",
+    "closed_days": "Friday",
+    "tags": [
+      "history",
+      "architecture"
+    ],
+    "last_entry": "17:00",
+    "accessible": true,
+    "location": "Agra city area"
+  },
+  {
+    "id": "agra_2",
+    "city": "Agra",
+    "name": "Agra Fort",
+    "category": "history",
+    "rating": 4.6,
+    "entry_fee_inr": 50,
+    "duration_minutes": 120,
+    "opening_hours": "06:00-18:00",
+    "closed_days": "None",
+    "tags": [
+      "history",
+      "architecture"
+    ],
+    "last_entry": "17:00",
+    "accessible": true,
+    "location": "Agra city area"
+  },
+  {
+    "id": "agra_3",
+    "city": "Agra",
+    "name": "Mehtab Bagh",
+    "category": "nature",
+    "rating": 4.3,
+    "entry_fee_inr": 30,
+    "duration_minutes": 90,
+    "opening_hours": "06:00-18:00",
+    "closed_days": "None",
+    "tags": [
+      "nature",
+      "photography"
+    ],
+    "last_entry": "17:00",
+    "accessible": false,
+    "location": "Agra city area"
+  },
+  {
+    "id": "agra_4",
+    "city": "Agra",
+    "name": "Sadar Bazaar",
+    "category": "shopping",
+    "rating": 4.2,
+    "entry_fee_inr": 0,
+    "duration_minutes": 120,
+    "opening_hours": "11:00-21:00",
+    "closed_days": "Sunday",
+    "tags": [
+      "shopping",
+      "food"
+    ],
+    "last_entry": "19:00",
+    "accessible": false,
+    "location": "Agra city area"
+  },
+  {
+    "id": "jaipur_1",
+    "city": "Jaipur",
+    "name": "Amber Fort",
+    "category": "history",
+    "rating": 4.7,
+    "entry_fee_inr": 100,
+    "duration_minutes": 180,
+    "opening_hours": "08:00-17:30",
+    "closed_days": "None",
+    "tags": [
+      "history",
+      "architecture"
+    ],
+    "last_entry": "16:00",
+    "accessible": false,
+    "location": "Jaipur city area"
+  },
+  {
+    "id": "jaipur_2",
+    "city": "Jaipur",
+    "name": "Hawa Mahal",
+    "category": "history",
+    "rating": 4.5,
+    "entry_fee_inr": 50,
+    "duration_minutes": 90,
+    "opening_hours": "09:00-16:30",
+    "closed_days": "None",
+    "tags": [
+      "history",
+      "architecture"
+    ],
+    "last_entry": "15:30",
+    "accessible": true,
+    "location": "Jaipur city area"
+  },
+  {
+    "id": "jaipur_3",
+    "city": "Jaipur",
+    "name": "Jantar Mantar",
+    "category": "history",
+    "rating": 4.5,
+    "entry_fee_inr": 50,
+    "duration_minutes": 90,
+    "opening_hours": "09:00-16:30",
+    "closed_days": "None",
+    "tags": [
+      "history",
+      "science"
+    ],
+    "last_entry": "15:30",
+    "accessible": true,
+    "location": "Jaipur city area"
+  },
+  {
+    "id": "jaipur_4",
+    "city": "Jaipur",
+    "name": "Johari Bazaar",
+    "category": "shopping",
+    "rating": 4.4,
+    "entry_fee_inr": 0,
+    "duration_minutes": 120,
+    "opening_hours": "10:00-20:00",
+    "closed_days": "Sunday",
+    "tags": [
+      "shopping",
+      "food"
+    ],
+    "last_entry": "18:00",
+    "accessible": false,
+    "location": "Jaipur city area"
+  },
+  {
+    "id": "jaipur_5",
+    "city": "Jaipur",
+    "name": "Nahargarh Fort sunset point",
+    "category": "nature",
+    "rating": 4.5,
+    "entry_fee_inr": 50,
+    "duration_minutes": 120,
+    "opening_hours": "10:00-17:30",
+    "closed_days": "None",
+    "tags": [
+      "nature",
+      "adventure"
+    ],
+    "last_entry": "16:00",
+    "accessible": false,
+    "location": "Jaipur city area"
+  },
+  {
+    "id": "chandigarh_1",
+    "city": "Chandigarh",
+    "name": "Rock Garden",
+    "category": "nature",
+    "rating": 4.5,
+    "entry_fee_inr": 30,
+    "duration_minutes": 120,
+    "opening_hours": "09:00-19:00",
+    "closed_days": "None",
+    "tags": [
+      "nature",
+      "art"
+    ],
+    "last_entry": "17:30",
+    "accessible": true,
+    "location": "Chandigarh city area"
+  },
+  {
+    "id": "chandigarh_2",
+    "city": "Chandigarh",
+    "name": "Sukhna Lake",
+    "category": "nature",
+    "rating": 4.6,
+    "entry_fee_inr": 0,
+    "duration_minutes": 90,
+    "opening_hours": "05:00-21:00",
+    "closed_days": "None",
+    "tags": [
+      "nature",
+      "relaxed"
+    ],
+    "last_entry": "19:00",
+    "accessible": true,
+    "location": "Chandigarh city area"
+  },
+  {
+    "id": "chandigarh_3",
+    "city": "Chandigarh",
+    "name": "Capitol Complex",
+    "category": "history",
+    "rating": 4.4,
+    "entry_fee_inr": 0,
+    "duration_minutes": 90,
+    "opening_hours": "10:00-17:00",
+    "closed_days": "Sunday",
+    "tags": [
+      "history",
+      "architecture"
+    ],
+    "last_entry": "15:30",
+    "accessible": true,
+    "location": "Chandigarh city area"
+  },
+  {
+    "id": "shimla_1",
+    "city": "Shimla",
+    "name": "The Ridge",
+    "category": "nature",
+    "rating": 4.6,
+    "entry_fee_inr": 0,
+    "duration_minutes": 120,
+    "opening_hours": "06:00-20:00",
+    "closed_days": "None",
+    "tags": [
+      "nature",
+      "walking",
+      "shopping"
+    ],
+    "last_entry": "18:00",
+    "accessible": false,
+    "location": "Shimla city area"
+  },
+  {
+    "id": "shimla_2",
+    "city": "Shimla",
+    "name": "Jakhu Temple",
+    "category": "religious",
+    "rating": 4.4,
+    "entry_fee_inr": 0,
+    "duration_minutes": 120,
+    "opening_hours": "07:00-20:00",
+    "closed_days": "None",
+    "tags": [
+      "religious places",
+      "nature"
+    ],
+    "last_entry": "18:00",
+    "accessible": false,
+    "location": "Shimla city area"
+  },
+  {
+    "id": "shimla_3",
+    "city": "Shimla",
+    "name": "Viceregal Lodge",
+    "category": "history",
+    "rating": 4.5,
+    "entry_fee_inr": 50,
+    "duration_minutes": 120,
+    "opening_hours": "10:00-17:00",
+    "closed_days": "Monday",
+    "tags": [
+      "history",
+      "architecture"
+    ],
+    "last_entry": "15:30",
+    "accessible": true,
+    "location": "Shimla city area"
+  },
+  {
+    "id": "shimla_4",
+    "city": "Shimla",
+    "name": "Kufri adventure park",
+    "category": "adventure",
+    "rating": 4.1,
+    "entry_fee_inr": 500,
+    "duration_minutes": 180,
+    "opening_hours": "09:00-17:00",
+    "closed_days": "None",
+    "tags": [
+      "adventure",
+      "nature"
+    ],
+    "last_entry": "15:00",
+    "accessible": false,
+    "location": "Shimla city area"
+  },
+  {
+    "id": "amritsar_1",
+    "city": "Amritsar",
+    "name": "Golden Temple",
+    "category": "religious",
+    "rating": 4.9,
+    "entry_fee_inr": 0,
+    "duration_minutes": 150,
+    "opening_hours": "00:00-23:00",
+    "closed_days": "None",
+    "tags": [
+      "religious places",
+      "culture",
+      "food"
+    ],
+    "last_entry": "21:00",
+    "accessible": true,
+    "location": "Amritsar city area"
+  },
+  {
+    "id": "amritsar_2",
+    "city": "Amritsar",
+    "name": "Jallianwala Bagh",
+    "category": "history",
+    "rating": 4.6,
+    "entry_fee_inr": 0,
+    "duration_minutes": 90,
+    "opening_hours": "06:30-19:00",
+    "closed_days": "None",
+    "tags": [
+      "history"
+    ],
+    "last_entry": "17:30",
+    "accessible": true,
+    "location": "Amritsar city area"
+  },
+  {
+    "id": "amritsar_3",
+    "city": "Amritsar",
+    "name": "Wagah Border ceremony",
+    "category": "history",
+    "rating": 4.7,
+    "entry_fee_inr": 0,
+    "duration_minutes": 150,
+    "opening_hours": "15:00-18:30",
+    "closed_days": "None",
+    "tags": [
+      "history",
+      "culture"
+    ],
+    "last_entry": "15:30",
+    "accessible": false,
+    "location": "Amritsar city area"
+  },
+  {
+    "id": "amritsar_4",
+    "city": "Amritsar",
+    "name": "Hall Bazaar",
+    "category": "shopping",
+    "rating": 4.3,
+    "entry_fee_inr": 0,
+    "duration_minutes": 120,
+    "opening_hours": "10:00-20:00",
+    "closed_days": "Sunday",
+    "tags": [
+      "shopping",
+      "food"
+    ],
+    "last_entry": "18:00",
+    "accessible": false,
+    "location": "Amritsar city area"
+  },
+  {
+    "id": "varanasi_1",
+    "city": "Varanasi",
+    "name": "Dashashwamedh Ghat evening aarti",
+    "category": "religious",
+    "rating": 4.8,
+    "entry_fee_inr": 0,
+    "duration_minutes": 120,
+    "opening_hours": "17:00-20:00",
+    "closed_days": "None",
+    "tags": [
+      "religious places",
+      "culture"
+    ],
+    "last_entry": "18:00",
+    "accessible": false,
+    "location": "Varanasi city area"
+  },
+  {
+    "id": "varanasi_2",
+    "city": "Varanasi",
+    "name": "Kashi Vishwanath Temple",
+    "category": "religious",
+    "rating": 4.8,
+    "entry_fee_inr": 0,
+    "duration_minutes": 120,
+    "opening_hours": "04:00-23:00",
+    "closed_days": "None",
+    "tags": [
+      "religious places",
+      "culture"
+    ],
+    "last_entry": "20:00",
+    "accessible": false,
+    "location": "Varanasi city area"
+  },
+  {
+    "id": "varanasi_3",
+    "city": "Varanasi",
+    "name": "Sarnath",
+    "category": "history",
+    "rating": 4.6,
+    "entry_fee_inr": 20,
+    "duration_minutes": 150,
+    "opening_hours": "08:00-17:00",
+    "closed_days": "None",
+    "tags": [
+      "history",
+      "religious places"
+    ],
+    "last_entry": "15:30",
+    "accessible": true,
+    "location": "Varanasi city area"
+  },
+  {
+    "id": "varanasi_4",
+    "city": "Varanasi",
+    "name": "Assi Ghat sunrise walk",
+    "category": "nature",
+    "rating": 4.5,
+    "entry_fee_inr": 0,
+    "duration_minutes": 90,
+    "opening_hours": "05:00-09:00",
+    "closed_days": "None",
+    "tags": [
+      "nature",
+      "relaxed"
+    ],
+    "last_entry": "07:30",
+    "accessible": false,
+    "location": "Varanasi city area"
+  },
+  {
+    "id": "mumbai_1",
+    "city": "Mumbai",
+    "name": "Gateway of India",
+    "category": "history",
+    "rating": 4.6,
+    "entry_fee_inr": 0,
+    "duration_minutes": 75,
+    "opening_hours": "06:00-18:00",
+    "closed_days": "None",
+    "tags": [
+      "history",
+      "architecture"
+    ],
+    "last_entry": "17:00",
+    "accessible": true,
+    "location": "Mumbai city area"
+  },
+  {
+    "id": "mumbai_2",
+    "city": "Mumbai",
+    "name": "Chhatrapati Shivaji Maharaj Vastu Sangrahalaya",
+    "category": "history",
+    "rating": 4.6,
+    "entry_fee_inr": 100,
+    "duration_minutes": 150,
+    "opening_hours": "10:15-18:00",
+    "closed_days": "Monday",
+    "tags": [
+      "history",
+      "culture"
+    ],
+    "last_entry": "16:30",
+    "accessible": true,
+    "location": "Mumbai city area"
+  },
+  {
+    "id": "mumbai_3",
+    "city": "Mumbai",
+    "name": "Marine Drive sunset walk",
+    "category": "nature",
+    "rating": 4.6,
+    "entry_fee_inr": 0,
+    "duration_minutes": 90,
+    "opening_hours": "00:00-23:59",
+    "closed_days": "None",
+    "tags": [
+      "nature",
+      "relaxed"
+    ],
+    "last_entry": "22:00",
+    "accessible": true,
+    "location": "Mumbai city area"
+  },
+  {
+    "id": "mumbai_4",
+    "city": "Mumbai",
+    "name": "Colaba Causeway",
+    "category": "shopping",
+    "rating": 4.3,
+    "entry_fee_inr": 0,
+    "duration_minutes": 120,
+    "opening_hours": "10:00-21:00",
+    "closed_days": "None",
+    "tags": [
+      "shopping",
+      "food"
+    ],
+    "last_entry": "19:00",
+    "accessible": false,
+    "location": "Mumbai city area"
+  },
+  {
+    "id": "goa_1",
+    "city": "Goa",
+    "name": "Baga Beach",
+    "category": "nature",
+    "rating": 4.4,
+    "entry_fee_inr": 0,
+    "duration_minutes": 150,
+    "opening_hours": "06:00-21:00",
+    "closed_days": "None",
+    "tags": [
+      "beaches",
+      "nature",
+      "food"
+    ],
+    "last_entry": "19:00",
+    "accessible": false,
+    "location": "Goa"
+  },
+  {
+    "id": "goa_2",
+    "city": "Goa",
+    "name": "Calangute Beach water sports",
+    "category": "adventure",
+    "rating": 4.3,
+    "entry_fee_inr": 900,
+    "duration_minutes": 180,
+    "opening_hours": "08:00-18:00",
+    "closed_days": "None",
+    "tags": [
+      "beaches",
+      "adventure"
+    ],
+    "last_entry": "15:00",
+    "accessible": false,
+    "location": "Goa"
+  },
+  {
+    "id": "goa_3",
+    "city": "Goa",
+    "name": "Fontainhas Latin Quarter",
+    "category": "history",
+    "rating": 4.5,
+    "entry_fee_inr": 0,
+    "duration_minutes": 120,
+    "opening_hours": "08:00-19:00",
+    "closed_days": "None",
+    "tags": [
+      "history",
+      "architecture",
+      "food"
+    ],
+    "last_entry": "17:00",
+    "accessible": true,
+    "location": "Goa"
+  },
+  {
+    "id": "goa_4",
+    "city": "Goa",
+    "name": "Anjuna Flea Market",
+    "category": "shopping",
+    "rating": 4.2,
+    "entry_fee_inr": 0,
+    "duration_minutes": 150,
+    "opening_hours": "10:00-18:00",
+    "closed_days": "Wednesday",
+    "tags": [
+      "shopping",
+      "food"
+    ],
+    "last_entry": "15:30",
+    "accessible": false,
+    "location": "Goa"
+  },
+  {
+    "id": "goa_5",
+    "city": "Goa",
+    "name": "Goan seafood and spice walk",
+    "category": "food",
+    "rating": 4.6,
+    "entry_fee_inr": 500,
+    "duration_minutes": 150,
+    "opening_hours": "11:00-20:00",
+    "closed_days": "None",
+    "tags": [
+      "food",
+      "nightlife"
+    ],
+    "last_entry": "17:30",
+    "accessible": false,
+    "location": "Goa"
+  },
+  {
+    "id": "goa_6",
+    "city": "Goa",
+    "name": "Mandrem Beach sunset",
+    "category": "nature",
+    "rating": 4.5,
+    "entry_fee_inr": 0,
+    "duration_minutes": 120,
+    "opening_hours": "06:00-19:00",
+    "closed_days": "None",
+    "tags": [
+      "beaches",
+      "nature",
+      "relaxed"
+    ],
+    "last_entry": "17:00",
+    "accessible": false,
+    "location": "Goa"
+  }
+]

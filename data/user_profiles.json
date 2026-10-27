@@ -1,0 +1,25 @@
+{
+  "default": {
+    "origin": "Dehradun",
+    "interests": [
+      "history",
+      "nature",
+      "food"
+    ],
+    "dietary_preference": "vegetarian",
+    "preferred_transport": "any",
+    "hotel_comfort": "budget",
+    "travel_pace": "normal"
+  },
+  "student": {
+    "origin": "Dehradun",
+    "interests": [
+      "history",
+      "nature"
+    ],
+    "dietary_preference": "vegetarian",
+    "preferred_transport": "train",
+    "hotel_comfort": "budget",
+    "travel_pace": "normal"
+  }
+}
